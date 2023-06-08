@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 100px 50px 100px;
+}
+nav > div > p {
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-family: 'PT Serif', serif;
+    font-size:44px;
+    margin-top: 20px;
+}
+.content {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+    grid-template-rows: 400px 400px;
+    /* border: 5px black solid; */
+    margin-bottom: 100px;
+}
+img {
+    width: 70%;
+    object-fit: cover;
+    -webkit-box-shadow: 1px 0px 30px 10px rgba(34, 60, 80, 0.58);
+    -moz-box-shadow: 1px 0px 30px 10px rgba(34, 60, 80, 0.58);
+    box-shadow: 1px 0px 30px 10px rgba(34, 60, 80, 0.58);
+}
+
+.a2, .a5 {
+    margin-top: 100px;
+}
+
+.a > p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+
+
+
+.a > div {
+    width: 300px;
+    height: 40px;
+    color: white;
+}
+.job {
+    rotate: 90deg;
+    margin-top: -196px;
+    margin-left: 140px;
+    color: black;
+}
+
+.a > p {
+    margin-top: 270px;
+}
